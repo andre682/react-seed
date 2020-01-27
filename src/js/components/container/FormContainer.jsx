@@ -5,7 +5,7 @@ class FormContainer extends Component {
   constructor() {
     super()
     this.state = {
-      field: ''
+      field: 'Default Text'
     }
     this.handleChange = this.handleChange.bind(this)
   }
@@ -19,11 +19,11 @@ class FormContainer extends Component {
     return (
       <form id="article-form">
         <Input
-          text="SEO title"
-          label="seo_title"
+          text="Input Title"
           type="text"
-          id="seo_title"
-          value={seo_title}
+          label="field"
+          id="field"
+          value={field}
           handleChange={this.handleChange}
         />
       </form>
