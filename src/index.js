@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import FormContainer from './js/components/container/FormContainer.jsx'
+import App from './js/App.jsx'
 
 const wrapper = document.getElementById('app')
-const jsx = <FormContainer />
+const jsx = <App />
 
 ReactDOM.render(jsx, wrapper)
